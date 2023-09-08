@@ -1,33 +1,21 @@
 # :robot: CNN :car:
 
 ## :arrow_forward: Introduction
-
+Image recongnitions represent a tough process even for human brain. This project consists of different models that will try to classify images in 7 possible classes.
 
 ## :memo: Description
-
+It can be quite challenging due to its complexity. Image classifications is often used for multiple applications such as object recognition, cybersecurity, medicine or autonomous vehicles.
+Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain.
 
 ## :computer: Implementation
-
+Models are imported from sklearn and from tensorflow.keras.models
+Accuracy can be interogated using confusion matrics 
+For more accuracy, the CNN model implements EarlyStopping imported from keras.callbacks
+Routes are designed using Flask and represents a defined way of communication with endpoint 
 
 ## :exclamation: Instructions
+The application can be started using 'flask --app main run' command
 
 
-## :wrench: Components 
-  - Arduino Uno
-  - Zip-ties
-  - Power source, a LiPo battery
-  - Wheels (2)
-  - Wires for the line sensor (female - male)
-  - QTR-8A reflectance sensor, along with screws
-  - Ball caster
-  - Extra wires from the Arduino kit
-  - Chassis
-  - Breadboard - medium (400pts)
-  - L293D motor driver
-  - DC motors (2)
-  
- ## :camera: Graph
-<p align="center">
- <img src="https://github.com/Marius2504/BitcoinPrediction/blob/master/bitcoin_generated.png" width="600">
-</p>
+
 
